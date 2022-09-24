@@ -58,7 +58,7 @@ class Window(QWidget):
         #Button sections
         btn1 = QPushButton("Calculate haseh",self)
         btn1.clicked.connect(self.calcHashButton)
-        btn2 = QPushButton("Generate new keypair for A",self)
+        btn2 = QPushButton("Generate new keypair for B",self)
         btn2.clicked.connect(self.newKeyPair1)
         btn3 = QPushButton("Pair key again",self)
         btn3.clicked.connect(self.pairKey)
